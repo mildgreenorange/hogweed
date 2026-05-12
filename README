@@ -1,0 +1,1 @@
+Hogweed is a small encryption library coded in C for the purpose of lightly 'securing' files for users. We do not recommend its usage in cases where security is actually required.
