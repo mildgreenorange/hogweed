@@ -5,3 +5,4 @@ char* hogweedXor(char chMessage, int iCode);
 char* hogweedShift(char chMessage, int iCode);
 char* hogweedSpaceless(char chMessage);
 char* hogweedAdvance(char chMessage, int i);
+char* hogweedMerge(char chMessage, char chCode);
