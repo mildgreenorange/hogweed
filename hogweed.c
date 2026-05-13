@@ -43,3 +43,12 @@ char* hogweedAdvance(char *chMessage, int i) {
     }
     return chMessage;
 }
+
+char* hogweedMerge(char *chMessage, char *chCode) {
+    for (int i = 0; i < sizeof(chMessage); i += 1) {
+        int j = sizeof(chCode);
+        chMessage[i] += chCode[j % i];
+    }
+
+    return chMessage;
+}
